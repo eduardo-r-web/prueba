@@ -1,0 +1,14 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 16px;
+}
+
+.container-users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

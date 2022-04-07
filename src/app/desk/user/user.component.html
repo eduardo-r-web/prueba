@@ -1,0 +1,13 @@
+<mat-card *ngIf="summaryUser" class="card">
+    <mat-card-header>
+        <div mat-card-avatar class="image">
+            <img [src]="summaryUser.image" [alt]="summaryUser.name">
+        </div>
+        <mat-card-title>{{summaryUser.name}}</mat-card-title>
+        <mat-card-subtitle>{{summaryUser.email}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p><strong>Nombre de la compañia: </strong>{{summaryUser.company_name}}</p>
+        <p><strong>Ciudad: </strong>{{summaryUser.city}}</p>
+      </mat-card-content>
+</mat-card>
