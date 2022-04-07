@@ -1,7 +1,7 @@
 <mat-card *ngIf="summaryUser" class="card">
     <mat-card-header>
         <div mat-card-avatar class="image">
-            <img [src]="summaryUser.image" [alt]="summaryUser.name">
+            <img [src]="summaryUser.image" [alt]="summaryUser.name" loading="lazy">
         </div>
         <mat-card-title>{{summaryUser.name}}</mat-card-title>
         <mat-card-subtitle>{{summaryUser.email}}</mat-card-subtitle>
